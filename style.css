@@ -161,4 +161,43 @@ i{
     width: 70%;
 }
 
+/* Last Panel */
+
+#last-panel{
+    overflow: auto;
+    background-color: #122835;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#p60{
+    width:60%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#p40{
+    width:40%;
+    float: left;
+}
+
+#p40 img{
+    width:100%;
+}
+
+#p60 p{
+    font-size: 18px;
+}
+
+#p60 a{
+    background-color: #2ED5B9;
+    color: #283B49;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 22px 18px;
+    font-size: 18px;
+}
 
