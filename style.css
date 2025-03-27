@@ -49,14 +49,14 @@ header{
 #getstarted{
     border: 2px dashed white;
     color:white;
-    padding:18px;
+    padding:16px;
     border-radius: 5px;
 }
 
 #readmore{
     background-color: #2ED5B9;
     color: #283B49;
-    padding:20px 26px;
+    padding:18px 24px;
     border-radius: 5px;
 }
 
@@ -91,6 +91,11 @@ img{
     text-decoration: none;
     padding: 22px 18px;
     font-size: 18px;
+
+    position: relative;
+    bottom: 0px;
+    transition-property:bottom,padding;
+    transition-duration: 0.7s;
 }
 
 #readmore2{
@@ -100,6 +105,11 @@ img{
     text-decoration: none;
     padding:20px 26px;
     font-size: 18px;
+
+    position: relative;
+    bottom: 0px;
+    transition-property:bottom,padding;
+    transition-duration: 0.7s;
 }
 
 #left-text p{
@@ -113,6 +123,17 @@ img{
 #left-text h4{
     margin-bottom:10px;
 }
+
+#getstarted2:hover{
+    bottom:10px;
+    padding: 24px 20px;
+}
+
+#readmore2:hover{
+    bottom:10px;
+    padding:22px 28px;
+}
+
 
 /* middle panel */
 #caption{
@@ -136,13 +157,21 @@ img{
 
 .block{
     width:30%;
-    height:250px;
+    height:240px;
     background-color: #122835;
     color:white;
     display: inline-block;
     margin:20px;
     border-radius: 15px;
     overflow: auto;
+    position: relative;
+    box-sizing: border-box;
+
+    bottom: 0px;
+    padding: 0px;
+    transition-property: bottom,padding;
+    transition-duration: 1s;
+    
 }
 
 i{
@@ -160,6 +189,12 @@ i{
     margin-left: 30px;
     width: 70%;
 }
+
+.block:hover{
+    bottom:20px;
+    padding: 10px;
+}
+
 
 /* Last Panel */
 
@@ -199,5 +234,14 @@ i{
     text-decoration: none;
     padding: 22px 18px;
     font-size: 18px;
+
+    position: relative;
+    bottom: 0px;
+    transition-property:bottom,padding;
+    transition-duration: 0.7s;
 }
 
+#p60 a:hover{
+    bottom:10px;
+    padding: 24px 20px;  
+}
